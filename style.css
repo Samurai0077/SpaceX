@@ -1,0 +1,117 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Titillium Web', Arial, sans-serif;
+}
+a{
+    color: white;
+}
+svg{
+    fill: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+header svg{
+    width: 200px;
+}
+header a.logo{
+    margin-right: 40px;
+}
+.center-nav a, .right-nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 13px;
+}
+.right-nav{
+    position: fixed;
+    right: 0;
+    top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.right-nav a{
+    padding: 0 50px;
+}
+.hamburger{
+    position: absolute;
+    right: 0;
+    top: -7px;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    border:0;
+    transform: rotate(90deg);
+}
+section{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+section div.content-outer{
+    flex-grow: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+section div.content{
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+    max-width: 260px;
+}
+section div.content h2{
+    font-size: 24px;
+    margin: 0;
+}
+section div.content h3{
+    margin: 0 0 10px;
+}
+section div.content a{
+    border: 2px solid #ffff;
+    display: inline-block;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 30px;
+}
+footer{
+    padding: 50px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+footer nav{
+    text-align: center;
+}
+footer nav span{
+    color: #777;
+    display: inline-block;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+footer nav a{
+    padding: 0 20px;
+    text-decoration: none;
+}
+footer nav a:hover{
+    color: #aaa;
+}
